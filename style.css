@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Shippori+Mincho&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #eee;
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  font-family: "roboto", sans-serif;
+  line-height: 1.2;
+}
+
+h1,
+h3,
+h4 {
+  margin-bottom: 10px;
+}
+
+.subheader {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+}
+p {
+  font-family: "poppins", sans-serif;
+}
+.para {
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #eee;
+}
+
+.memories {
+  margin: 10px;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+ul {
+  margin: 30px;
+}
+
+li {
+  list-style-type: circle;
+  font-size: 18px;
+}
